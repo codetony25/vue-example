@@ -13,7 +13,7 @@ export default {
   name: 'Button',
   data() {
     return {
-      defaultClass: 'hover:bg-blue-400 bg-blue-500 group flex items-center rounded-md text-white text-sm font-medium pl-2 pr-3 py-2 shadow-sm'
+      defaultClass: 'hover:bg-blue-400 bg-blue-500 group flex items-center rounded-md text-white text-sm font-medium pl-2 pr-2 py-2 shadow-sm'
     }
   },
   props: {

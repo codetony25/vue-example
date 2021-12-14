@@ -9,7 +9,8 @@
     "lint": "vue-cli-service lint",
     "backend": "json-server --watch db.json --port 5000",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "chromatic": "npx chromatic --project-token=ae03fae7caf2"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.36",
